@@ -22,3 +22,13 @@ while lets_party == 'y':
         print(message.format(people, cookies_each, leftovers))
 
     lets_party = input("\nWould you like to party more? (y or n) ")
+
+""" 
+try:
+        num_each = cookies // people
+        leftovers = cookies % people
+    except ZeroDivisionError:
+        print("Oops, you entered 0 people will be attending.")
+        print("Please enter a good number of people for a party.")
+
+"""
